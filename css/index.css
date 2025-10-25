@@ -1,0 +1,143 @@
+@font-face
+{
+	font-family: 'quicksand';
+	src: url('../font/Quicksand-Regular.otf') format('truetype');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	background-color: #373940;
+	vertical-align: baseline;
+	font-family: 'quicksand';
+}
+
+section {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+#section1 {
+	background-color: #0A9AAA;
+}
+
+#section2
+{
+	background-color: #00509A;
+	padding-top: 0.5em;
+	padding-bottom: 3em;
+}
+
+#section2 h1
+{
+	text-align: center;
+	font-size: 2.25em;
+	color: rgb(174,186,240);
+	font-family: 'quicksand';
+}
+
+#section2 .text
+{
+	font-family: 'quicksand';
+	overflow: hidden;
+	text-align: justify;
+	color : rgb(174,186,240);
+	font-size: 1.5em;
+	text-indent: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#section3
+{
+	background-color: #FCF7F8;
+}
+
+#sponsors
+{
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding:1em;
+}
+
+
+#sponsors img
+{
+	width: 15em;
+}
+
+#section5
+{
+	background-color: #00509A;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#section6 
+{
+	background-color: #0A9AAA;
+}
+
+.partie2_5
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.partie22_5
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.partie221_5
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+.linkedin-card {
+  border: 1px solid #0077b5;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f3f6f9;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  transition: box-shadow 0.3s ease;
+}
+
+.linkedin-card:hover {
+  box-shadow: 0 0 10px rgba(0, 119, 181, 0.4);
+}
+
+.linkedin-card a {
+  text-decoration: none;
+  color: #0077b5;
+}
+
+.linkedin-icon {
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+
+.linkedin-preview {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.linkedin-preview:hover {
+  transform: scale(1.02);
+}
